@@ -1,0 +1,48 @@
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+}
+
+#svgGroup {
+  position:absolute;
+}
+
+#hero1_svg {
+  position:absolute;
+}
+
+#hero2 {
+  position:absolute;
+  background-image:url('../img/hero2.jpg');
+}
+
+#cta {
+  position:absolute;
+  width:143px;
+  height:36px;
+  background-color:#ff43c5;
+}
+
+#cta_copy {
+  background-image:url('../img/cta_copy.png');
+}
+
+#comp {
+  top:0px;
+  left:0px;
+  background-image:url('../img/comp1.jpg');
+  opacity:.5;
+}
+
+#copy1 {
+  background-image:url('../img/copy1.png');
+}
+
+#copy2 {
+  background-image:url('../img/copy2.png');
+}
+
+#logo {
+  background-image:url('../img/logo.png');
+}

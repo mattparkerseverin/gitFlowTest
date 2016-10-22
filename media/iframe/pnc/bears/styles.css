@@ -1,0 +1,7 @@
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+  position:absolute;
+}
+

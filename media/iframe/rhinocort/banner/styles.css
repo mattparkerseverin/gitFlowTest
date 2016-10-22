@@ -1,0 +1,51 @@
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+}
+
+.sprite {
+  background-size: calc(1800px/2) calc(1500px/2);
+  background-image: url(spritesheet.png);
+}
+
+#hero {
+  background-image: url(hero.jpg);
+}
+
+#cta_rollover {
+  width:68px;
+  height:57px;
+  /*background-color:rgba(255,0,0,.25);*/
+  background-image: url(button_shimmer.png);
+}
+
+#copy1 {
+  background-position: 0 0;
+}
+
+#copy2 {
+  background-position: -300px 0;
+}
+
+#copy3 {
+  background-position: 0 -250px;
+}
+
+#copy4 {
+  background-position: -300px -250px;
+}
+
+#cta {
+  background-position: 0 -500px;
+}
+
+#logo {
+  background-position: -300px -500px;
+}
+
+#logo2 {
+  background-position: -600px 0;
+}
+
+#pack {
+  background-position: -600px -250px;
+}

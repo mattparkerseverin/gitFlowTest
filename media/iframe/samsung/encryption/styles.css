@@ -1,0 +1,57 @@
+.sprite {
+  background-size: calc(1800px/2) calc(1500px/2);
+  background-image: url(spritesheet.png);
+}
+
+/*all bg positions have been halved to account for the retina image resize in .sprite, calc() wasn't working well*/
+#breadcrumbs {
+    background-position: 0 0;
+}
+
+#copy0 {
+    background-position: -300px 0;
+}
+
+#copy1 {
+    background-position: 0 -250px;
+}
+
+#copy2 {
+    background-position: -300px -250px;
+}
+
+#cta {
+    background-position: 0 -500px;
+}
+
+#cta_carat {
+    background-position: -300px -500px;
+}
+
+#gradient {
+    /*background-position: -600px 0;*/
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(9%, rgba(255,255,255,1)), color-stop(33%, rgba(255,255,255,0)), color-stop(46%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+
+#logo {
+    background-position: -600px -250px;
+}
+
+#phone {
+    background-position: -600px -500px;
+}
+
+
+#binary_wrapper, #asterisk_wrapper{
+    width: 370px;
+    height: 250px;
+    overflow:hidden;
+    position:absolute;
+}

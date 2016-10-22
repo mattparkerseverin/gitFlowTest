@@ -1,0 +1,140 @@
+.svg {
+  width:300px;
+  height:250px;
+  position:absolute;
+}
+
+.sprite {
+  background-size: calc(1800px/2) calc(1500px/2);
+  background-image: url(spritesheet.png);
+}
+
+/*all bg positions have been halved to account for the retina image resize in .sprite, calc() wasn't working well*/
+
+#white_bot {
+    bottom:0px;
+    width:300px;
+    height:30px;
+    background-color:#fff;
+    position:absolute;
+}
+
+
+#breadcrumbs {
+    /*background-position: 0 0;*/
+    display: none;
+}
+
+#copy0 {
+    background-position: 0 0;
+}
+
+#copy1 {
+    background-position: -300px 0;
+}
+
+#copy2 {
+    background-position: 0 -250px;
+}
+
+#copy3 {
+    background-position: -300px -250px;
+}
+
+#cta {
+    background-position: -600px 0;
+}
+
+#cta_carat {
+    background-position: -600px -250px;
+}
+
+#logo {
+    background-position: 0 -500px;
+}
+
+
+#comp {
+    width:300px;
+    height:250px;
+    background-image:url("comp1.jpg");
+    opacity:0;
+    position:absolute;
+}
+
+#phone_wrapper {
+    width:253px;
+    height:253px;
+    position:absolute;
+    overflow:hidden;
+    /*background-color:rgba(50, 50, 50, .25);*/
+}
+
+#phone {
+    width:calc(258px/2);
+    height:calc(506px/2);
+    background-size: calc(258px/2) calc(506px/2);
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#phone_2 {
+    width:calc(154px/2);
+    height:calc(304px/2);
+    background-size: calc(154px/2) calc(304px/2);
+    background-image: url(phone_2.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#phone_fill {
+    width:129px;
+    height:253px;
+    background-color: #fff;
+    position:absolute;
+}
+
+#write_up_0 {
+    width:88px;
+    height:105px;
+    overflow: hidden;
+    background-image: url(write_up_0_sprite.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#write_up_1 {
+    width:84px;
+    height:139px;
+    overflow: hidden;
+    background-image: url(write_up_1_sprite.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#write_up_2 {
+    width:88px;
+    height:71px;
+    overflow: hidden;
+    background-image: url(write_up_2_sprite.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#pen {
+    width:calc(24px/2);
+    height:calc(386px/2);
+    background-size: calc(24px/2) calc(386px/2);
+    background-image: url(pen.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+.bar {
+    width:12px;
+    height:226px;
+    background-image: url(bar.svg);
+    position:absolute;
+    /*opacity:.5;*/
+}

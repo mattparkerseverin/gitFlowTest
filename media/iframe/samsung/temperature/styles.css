@@ -1,0 +1,65 @@
+.sprite {
+  background-size: calc(2400px/2) calc(2000px/2);
+  background-image: url(spritesheet.png);
+}
+
+#temperature_wrapper, #dot_wrapper, #triangle_wrapper {
+  position:absolute;
+  width:156;
+  height:156;
+}
+
+/*all bg positions have been halved to account for the retina image resize in .sprite, calc() wasn't working well*/
+
+#breadcrumbs {
+    background-position: 0 0;
+    display: none;
+}
+
+#copy0 {
+    background-position: -300px 0;
+}
+
+#copy1 {
+    background-position: -600px 0;
+}
+
+#copy2 {
+    background-position: 0 -250px;
+}
+
+#copy3 {
+    background-position: -300px -250px;
+}
+
+#cta {
+    background-position: -600px -250px;
+}
+
+#cta_carat {
+    background-position: 0 -500px;
+}
+
+#display {
+    background-position: -300px -500px;
+}
+
+#display2 {
+    background-position: -600px -500px;
+}
+
+#display2_content {
+    background-position: -900px 0;
+}
+
+#display_content {
+    background-position: -900px -250px;
+}
+
+#display_copy {
+    background-position: -900px -500px;
+}
+
+#logo {
+    background-position: 0 -750px;
+}

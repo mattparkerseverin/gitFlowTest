@@ -1,0 +1,90 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555
+}
+
+#banner {
+    background: #000;
+    position: absolute;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    left: 0;
+    top: 0;
+}
+
+#banner div,
+#banner svg {
+    position: absolute;
+    z-index: 0
+}
+
+#banner #button-exit {
+    background-color: #fff;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#banner #border {
+    border: 1px solid #ccc;
+    display: block;
+    width: 298px;
+    height: 248px;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 999
+}
+
+#banner .icon-copy0,
+#banner .icon-copy1,
+#banner .icon-cta,
+#banner .icon-cta_bg,
+#banner .icon-cta_over,
+#banner .icon-logo {
+    background-image: url(../images/spritesheets/spritesheet.png);
+    width: 300px;
+    height: 250px
+}
+
+#banner .icon-copy0 {
+    background-position: 0 0
+}
+
+#banner .icon-copy1 {
+    background-position: -300px 0
+}
+
+#banner .icon-cta {
+    background-position: 0 -250px
+}
+
+#banner .icon-cta_bg {
+    background-position: -300px -250px
+}
+
+#banner .icon-cta_over {
+    background-position: -600px 0
+}
+
+#banner .icon-logo {
+    background-position: -600px -250px
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-resolution:192dpi) {
+    #banner .icon-copy0,
+    #banner .icon-copy1,
+    #banner .icon-cta,
+    #banner .icon-cta_bg,
+    #banner .icon-cta_over,
+    #banner .icon-logo {
+        background-image: url(../images/spritesheets/spritesheet_2x.png);
+        background-size: 900px 500px
+    }
+}

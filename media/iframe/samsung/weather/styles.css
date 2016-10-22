@@ -1,0 +1,186 @@
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+  position:absolute;
+}
+
+.svg {
+  width:300px;
+  height:250px;
+  position:absolute;
+}
+
+#gradient {
+  position:absolute;
+background: rgba(255,255,255,0);
+background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(89%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+  /*background-image: url(gradient.png);*/
+}
+
+#bar0 {
+  position:absolute;
+  width:300px;
+  height:34px;
+  background-color:#93d5ff;
+}
+
+#sun_small {
+  background-size: calc(51px/2) calc(52px/2);
+  width:calc(51px/2);
+  height:calc(52px/2);
+  background-image: url(sun_small.png);
+  position:absolute;
+}
+
+#bar1 {
+  position:absolute;
+  width:300px;
+  height:34px;
+  background-color:#99afff;
+}
+
+#snow_small {
+  background-size: calc(51px/2) calc(53px/2);
+  width:calc(51px/2);
+  height:calc(53px/2);
+  background-image: url(snow_small.png);
+  position:absolute;
+}
+
+#bar2 {
+  position:absolute;
+  width:300px;
+  height:34px;
+  background-color:#4f58ff;
+}
+
+#rain_small {
+  background-size: calc(50px/2) calc(46px/2);
+  width:calc(50px/2);
+  height:calc(46px/2);
+  background-image: url(rain_small.png);
+  position:absolute;
+}
+
+#copy1 {
+  position:absolute;
+  background-image: url(copy1.png);
+}
+
+#copy2 {
+  position:absolute;
+  background-image: url(copy2.png);
+}
+
+#copy3 {
+  position:absolute;
+  background-image: url(copy3.png);
+}
+
+#copy4 {
+  position:absolute;
+  background-image: url(copy4.png);
+}
+
+#rain {
+  position:absolute;
+  background-image: url(rain.svg);
+}
+
+#rainContainer {
+  width:209px;
+  height:133px;
+  position:absolute;
+  /*background-color: rgba(0,0,0,.2);*/
+  left:0;
+  bottom:0;
+}
+
+.rainDrop {
+  width:16px;
+  height:23px;
+  position:absolute;
+  background-image: url(rainDrop.svg);
+}
+
+#sun {
+  position:absolute;
+  /*background-image: url(sun.svg);*/
+}
+
+#snow {
+  position:absolute;
+  background-image: url(snow.svg);
+}
+
+#snowContainer {
+  width:209px;
+  height:133px;
+  position:absolute;
+  /*background-color: rgba(0,0,0,.2);*/
+  left:0;
+  bottom:0;
+}
+
+.snowFlake {
+  width:17px;
+  height:20px;
+  position:absolute;
+  background-image: url(snowFlake.svg);
+}
+
+#screen {
+  position:absolute;
+  background-image: url(screen.png);
+}
+
+#screen_container {
+  width:218px;
+  height:124px;
+  overflow:hidden;
+  position:absolute;
+  background-color: black;
+}
+
+#screen_content {
+  background-size: calc(488px/2) calc(343px/2);
+  width:calc(488px/2);
+  height:calc(343px/2);
+  position:absolute;
+  background-image: url(screen_content.jpg);
+}
+
+#screen_copy {
+  width:131px;
+  height:9px;
+  position:absolute;
+  background-image: url(screen_copy.svg);
+}
+
+#breadcrumbs {
+  position:absolute;
+  background-image: url(breadcrumbs.png);
+  display:none;
+}
+
+#logo {
+  position:absolute;
+  background-image: url(logo.png);
+}
+
+#cta {
+  position:absolute;
+  background-image: url(cta.png);
+}
+
+#cta_carat {
+  position:absolute;
+  background-image: url(cta_carat.png);
+}

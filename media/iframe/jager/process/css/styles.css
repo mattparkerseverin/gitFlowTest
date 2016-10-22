@@ -1,0 +1,359 @@
+body {
+  background-color: red;
+  color:white;
+  padding:0;
+  margin:0;
+}
+
+.dimensions {
+  position:absolute;
+  width: 300px;
+  height:250px;
+}
+
+#banner {
+  background-color: #fff;
+  margin:auto;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+#border {
+  background:url(../img/border.png)
+}
+
+#scene_1 {
+  width: 330px;
+  height:250px;
+  background:url(../img/wood_340_16c.png), url(../img/bg_1.png);
+  background-blend-mode: multiply;
+  position:relative;
+}
+
+#scene_2 {
+  background:url(../img/wood_340_16c.png), url(../img/bg_2.png);
+  background-blend-mode: multiply;
+}
+
+#scene_3 {
+  width: 340px;
+  height:250px;
+  background:url(../img/wood_340_16c.png), url(../img/bg_3.png);
+  background-blend-mode: multiply;
+  position:absolute;
+}
+
+#scene_4 {
+  width: 330px;
+  height:250px;
+  background:url(../img/wood_340_16c.png), url(../img/bg_4.png);
+  background-blend-mode: multiply;
+  position:absolute;
+}
+
+#scene_5 {
+  background:url(../img/wood_340_16c.png);
+}
+
+#scene_6 {
+  background:url(../img/wood_340_16c.png);
+}
+
+#copy_1 {
+  width: 224px;
+  height:115px;
+  background:url(../img/copy_1.png) no-repeat;
+  position: absolute;
+}
+
+#copy_2 {
+  width: 233px;
+  height:93px;
+  background:url(../img/copy_2.png) no-repeat;
+  position: absolute;
+}
+
+#copy_3 {
+  width:162px;
+  height:92px;
+  background:url(../img/copy_3.png) no-repeat;
+  position: absolute;
+}
+
+#innerBorder {
+  width:283px;
+  height:200px;
+  position:absolute;
+  -webkit-box-shadow:inset 0px 0px 0px 2px #341F11;
+  -moz-box-shadow:inset 0px 0px 0px 2px #341F11;
+  box-shadow:inset 0px 0px 0px 2px #341F11;
+}
+
+#wood {
+  width:300px;
+  height:90px;
+  position:absolute;
+  background:url(../img/wood_340_16c.png);
+}
+
+#bottleEnd {
+  width:104px;
+  height:230px;
+  position:absolute;
+  background:url(../img/bottle.png);
+}
+
+
+.cta {
+  width:141px;
+  height:36px;
+  position:absolute;
+  overflow:hidden;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+#ctaOut {
+  background:url(../img/cta_text_8c.png);
+  background-color: #FBE097;
+  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.23);
+  -moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.23);
+  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.23);
+}
+
+#ctaOver {
+  background:url(../img/cta_text_8c.png);
+  background-color: #E59344;
+}
+
+#legal {
+  width:137px;
+  height:42px;
+  position:absolute;
+  background:url(../img/legal_16c.png);
+  background-repeat: no-repeat;
+  overflow:hidden;
+}
+
+.rivet {
+  position:absolute;
+  width:16px;
+  height:16px;
+  background:url(../img/rivet.png);
+  overflow:hidden;
+}
+
+#wheel {
+  width:110px;
+  height:104px;
+  position:absolute;
+  background:url(../img/wheel_6f_24c.png);
+  overflow:hidden;
+}
+
+#diagonalBase {
+  width:177px;
+  height:78px;
+  position:absolute;
+  background:url(../img/diagonalBase_16c.png);
+  overflow:hidden;
+}
+
+#disco {
+  width:110px;
+  height:200px;
+  position:absolute;
+  background:url(../img/disco_24c.png);
+  overflow:hidden;
+}
+
+#conveyor {
+  width:296px;
+  height:11px;
+  position:absolute;
+  background:url(../img/conveyor_6f_16c.png);
+  overflow:hidden;
+}
+
+#hotPlate {
+  width:103px;
+  height:111px;
+  position:absolute;
+  background:url(../img/hotPlate_12f_16c.png);
+  overflow:hidden;
+}
+
+#yellowBg {
+  width:299px;
+  height:113px;
+  position:absolute;
+  background:url(../img/yellowBg.png);
+  overflow:hidden;
+}
+
+#antlers {
+  width:272px;
+  height:174px;
+  position:absolute;
+  background:url(../img/antlers_16c.png);
+  overflow:hidden;
+}
+
+#speakerMic {
+  width:77px;
+  height:249px;
+  position:absolute;
+  background:url(../img/SpeakersWithMic_16c.png);
+  overflow:hidden;
+}
+
+#speaker {
+  width:47px;
+  height:47px;
+  position:absolute;
+  background:url(../img/speaker_8c.png);
+  overflow:hidden;
+}
+
+#tubing {
+  width:190px;
+  height:65px;
+  position:absolute;
+  background:url(../img/tubing_16c.png);
+  overflow:hidden;
+}
+
+#bubbler {
+  width:105px;
+  height:50px;
+  position:absolute;
+  background:url(../img/bubbler_16c.png);
+  overflow:hidden;
+}
+
+#barrel_1 {
+  width:173px;
+  height:158px;
+  position:absolute;
+  background:url(../img/barrel_1_16c.png);
+  overflow:hidden;
+}
+
+#barrel_1_legs {
+  width:40px;
+  height:90px;
+  position:absolute;
+  background:url(../img/barrel_1_leg_53f_16c.png);
+  overflow:hidden;
+}
+
+#barrel_2 {
+  width:165px;
+  height:213px;
+  position:absolute;
+  background:url(../img/barrel_2_16c.png);
+  overflow:hidden;
+}
+
+#barrel_2_legs {
+  width:165px;
+  height:213px;
+  position:absolute;
+  background:url(../img/barrel_2_legs_16c.png);
+  overflow:hidden;
+}
+
+#cup {
+  width:27px;
+  height:40px;
+  position:absolute;
+  background:url(../img/cup_8c.png);
+  overflow:hidden;
+}
+
+.drip {
+  width:5px;
+  height:7px;
+  position:absolute;
+  background:url(../img/drip.png);
+}
+
+.treeType1 {
+  width:51px;
+  height:92px;
+  position:absolute;
+  background:url(../img/tree1_8c.png);
+  overflow:hidden;
+}
+
+.treeType2 {
+  width:46px;
+  height:109px;
+  position:absolute;
+  background:url(../img/tree2_8c.png);
+  overflow:hidden;
+}
+
+.tubeType1 {
+  width:44px;
+  height:66px;
+  position:absolute;
+  background:url(../img/tube_1_16c.png);
+  overflow:hidden;
+}
+
+.tubeType2 {
+  width:44px;
+  height:66px;
+  position:absolute;
+  background:url(../img/tube_2_16c.png);
+  overflow:hidden;
+}
+
+.rootType1 {
+  width:21px;
+  height:28px;
+  position:absolute;
+  background:url(../img/root_1.png);
+  overflow:hidden;
+}
+
+.rootType2 {
+  width:20px;
+  height:23px;
+  position:absolute;
+  background:url(../img/root_2.png);
+  overflow:hidden;
+}
+
+.beakerType1 {
+  width:32px;
+  height:111px;
+  position:absolute;
+  background:url(../img/beaker_1_53f_16c.png);
+  overflow:hidden;
+}
+
+.beakerType2 {
+  width:32px;
+  height:111px;
+  position:absolute;
+  background:url(../img/beaker_2_53f_16c.png);
+  overflow:hidden;
+}
+
+#hit {
+  /*background-color: rgba(255,0,0,.25);*/
+  width:300px;
+  height: 250px;
+  position:absolute;
+  z-index:1;
+}
+
+#logo_black {
+  background:url(../img/logo_black.png);
+  width:300px;
+  height: 32px;
+  position:absolute;
+}

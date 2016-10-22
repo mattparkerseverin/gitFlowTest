@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.blend {
+    -moz-mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
+}
+
+#pnc {
+    width: 95px;
+    height: 36px;
+    position: absolute;
+    background: url(pnc.svg) no-repeat;
+}
+
+#fallback {
+    width: 127px;
+    height: 97px;
+    position: absolute;
+    display: none;
+}
+
+#intro {
+    background: #FFF;
+}
+
+#main {
+    position: absolute;
+    transform: rotate(0.01deg);
+}
+
+#final {
+    background: #aba398;
+}
+
+#boxes {}
+
+#s0 {
+    width: 24px;
+    height: 6px;
+    background: #af1b02;
+    position: absolute;
+    /*
+    top: 250px;
+    right: 300px;
+*/
+}
+
+#s1 {
+    width: 15px;
+    height: 18px;
+    background: #f3bc87;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#s2 {
+    width: 40px;
+    height: 30px;
+    background: #f3be26;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#s3 {
+    width: 28px;
+    height: 37px;
+    background: #ee9c34;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#s4 {
+    width: 24px;
+    height: 41px;
+    background: #e4c7a7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#s5 {
+    width: 46px;
+    height: 12px;
+    background: #e669a2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#legal1 {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    font: 8.5px Arial, sans-serif;
+    text-align: center;
+    color: #726d66;
+}
+
+#legal {
+    position: absolute;
+    bottom: 11px;
+    right: 9px;
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    color: #726d66;
+}
+
+#bg {
+    width: 300px;
+    height: 250px;
+    background-image: url(background.jpg);
+    -webkit-background-size: 300px 250px;
+    background-size: 300px 250px;
+    position: absolute;
+}
+
+#truck {
+    width: 299px;
+    height: 117px;
+    left: 300px;
+    bottom: 13px;
+    position: absolute;
+}
+
+#farmerholder {
+    width: 44px;
+    height: 53px;
+    left: 132px;
+    bottom: 40px;
+    position: absolute;
+    display: none;
+}
+
+#truckcrates {
+    width: 101px;
+    height: 39px;
+    left: 135px;
+    top: 30px;
+    position: absolute;
+    background: url(truckcrates.png);
+    -webkit-background-size: 101px 39px;
+    background-size: 101px 39px;
+}
+
+#cta {
+    top: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#ctaOuter {
+    width: 144px;
+    height: 28px;
+    border: 1px solid #FFF;
+    padding: 2px;
+}
+
+#ctaInner {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ba1b26;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+/* SPRITESHEET POSITIONING */
+
+#berries {
+    left: -150px;
+    top: -150px;
+}
+
+#crates {
+    left: 0;
+    bottom: 0;
+}
+
+#logo {
+    left: 10px;
+    bottom: 9px;
+}
+
+#text {
+    top: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#wheelrear {
+    top: 86px;
+    left: 177px;
+}
+
+#wheelfront {
+    top: 86px;
+    left: 338px;
+}
+
+#woman {
+    bottom: 13px;
+    left: 0;
+}
+
+#ute {
+    top: 20px;
+}
+
+
+/* SVGSPRITESHEET SIZING */
+
+#logo {
+    width: 54px;
+    height: 41px;
+    background-position: -5px -200px;
+}
+
+#text {
+    width: 243px;
+    height: 93px;
+    background-position: -5px -5px;
+}
+
+
+/* SPRITESHEET SIZING */
+
+#berries {
+    width: 231px;
+    height: 137px;
+    background-position: 0 -352px;
+}
+
+#crates {
+    width: 57px;
+    height: 49px;
+    background-position: 0 -0px;
+}
+
+#farmer {
+    width: 44px;
+    height: 53px;
+    background-position: 0 -77px;
+}
+
+#wheelrear,
+#wheelfront {
+    width: 19px;
+    height: 19px;
+    background-position: 0 -255px;
+}
+
+#woman {
+    width: 123px;
+    height: 78px;
+    background-position: 0 -274px;
+}
+
+#ute {
+    width: 380px;
+    height: 97px;
+    background-position: 0 -489px;
+}
+
+
+/* SPRITESHEET - Already retina ready! */
+
+.sprite {
+    background-image: url(spritesheet.png);
+    -webkit-background-size: 380px 586px;
+    background-size: 380px 586px;
+    position: absolute;
+}
+
+.svgsprite {
+    background-image: url(svgspritesheet.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}

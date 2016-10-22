@@ -1,0 +1,51 @@
+.sprite {
+  background-size: calc(1800px/2) calc(1500px/2);
+  background-image: url(spritesheet.png);
+}
+
+/* set your initial positions in the javascript, not the CSS */
+
+/* put important, but static attributes, ones you'll not be animating here */
+
+/* all bg positions have been halved to account for the retina image being resized to half in the 'dimensions' class found in the html */
+
+svg {
+    position:absolute;
+}
+
+#copy0 {
+    background-position: 0 0;
+}
+
+#copy1 {
+    background-position: -300px 0;
+}
+
+#copy2 {
+    background-position: 0 -250px;
+}
+
+#copy3 {
+    background-position: -300px -250px;
+}
+
+#cta {
+    background-position: 0 -500px;
+}
+
+#cta_carat {
+    background-position: -300px -500px;
+}
+
+#droplets {
+    background-position: -600px 0;
+    /*background-color: rgba(55,55,55,.2);*/
+}
+
+#logo {
+    background-position: -600px -250px;
+}
+
+#phone {
+    background-position: -600px -500px;
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- set banner size -->
+    <meta name="ad.size" content="width=300,height=250">
+
+    <!-- set your core, preloaded css attributes here, size, border, background color, etc -->
+    <style>
+        body {background-color: #fff; padding:0; margin:0;}
+        div {background-repeat:no-repeat;}
+        .dimensions {position:absolute; width: 300px; height: 250px; top: 0; left: 0;}
+        #loader {background-color: #fff;}
+        #banner {margin: auto; overflow: hidden; cursor: pointer; background-color:#fff;}
+        #border {border: 1px solid #cccccc; width:298px;height:248px;position:absolute;top: 0; left: 0;}
+    </style>
+    <!-- end of core css attributes libaries -->
+
+    <!-- set platform -->
+    <script>
+        var vendor = "dfa", // options are "sizmek, doubleclick, atlas, dcm, dfa"
+            clickTag = "http://www.google.com";
+    </script>
+
+    <!-- put vendor libraries here, set vendor clicktag value -->
+    <!-- <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script> -->
+    <!--  end of vendor libaries  -->
+
+</head>
+
+<body onload="checkInit()">
+
+    <div id="banner" class="dimensions">
+
+        <!-- Place all your asset container divs here -->
+        <!-- Create 'layer' order here, bottom most div being the front most asset -->
+
+        <!-- graph and wave values derived from Adobe Illustrator -->
+        <svg version="1.1"
+            id="graph"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px"
+             width="300px" height="250px"
+             viewBox="0 0 300 250"
+             style="enable-background:new 0 0 300 250;"
+             xml:space="preserve">
+
+            <style type="text/css">
+                .st0{opacity:0.85;clip-path:url(#wave0_clipPath);fill:url(#wave0_gradient);enable-background:new    ;}
+                .st2{opacity:0.2;}
+                .st3{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+                .st4{fill:#FFFFFF;}
+                .st5{fill:none;stroke:#A49F91;stroke-width:0.5;stroke-miterlimit:10;}
+            </style>
+
+            <g id="wave0_group">
+                <!-- the clip path is the initial shape of the wave -->
+                <defs>
+                    <clipPath id="wave0_clipPath">
+                        <path id="wave0_path0" d="M82.411,131.614c0,0,5.682,25.545,23.026,25.531c16.771-0.014,11.6,10.477,22.01,10.477
+                    c16.849,0,5.208-4.567,21.285-5.078c15.562-0.494,5.011-11.799,20.178-11.976c14.699-0.171,7.633,8.855,19.592,8.659
+                    c11.661-0.191,5.364-8.025,18.364-7.762c12.64,0.256,9.833,9.723,18.146,9.723l0.335,35.214L82.744,209.495L82.411,131.614z"/>
+                    </clipPath>
+                </defs>
+
+                <linearGradient id="wave0_gradient" gradientUnits="userSpaceOnUse" x1="243.3156" y1="-253.5677" x2="105.8022" y2="-244.4205" gradientTransform="matrix(1 0 0 1 0 392)">
+                    <stop  offset="0" style="stop-color:#FFFFFF"/>
+                    <stop  offset="1" style="stop-color:#7BABCC"/>
+                </linearGradient>
+
+                <!-- this is a simple, squared shape with a gradient fill, it is maksed by the clip path "wave0_clipPath" -->
+                <path id="wave0_fill" class="st0" d="M224.888,88.75l0.457,107.652L82.744,209.495L82.478,88.75H224.888z"/>
+
+                <!-- this path is the resting shape of the wave, GSAP/MorphSVG will tween between the shapes "wave0_path0" and "wave0_path1" -->
+                <path id="wave0_path1" d="M82.478,143.123c0,0,12.639-23.233,23.004-23.337c10.157-0.102,12.175,10.494,21.878,10.341
+            c9.518-0.15,7.771,31.02,21.438,30.367c13.294-0.635,5.592-37.295,19.992-37.044c13.977,0.244,8.059-19.62,19.652-19.641
+            c11.312-0.02,10.417,6.522,18.487,6.553c7.93,0.03,17.959-21.611,17.959-21.611l0.457,107.652L82.744,209.495L82.478,143.123z"/>
+            </g>
+
+<!--  -->
+
+            <g id="grid">
+                <g class="st2">
+                    <line class="st3" x1="206.972" y1="198.029" x2="206.427" y2="71.581"/>
+                    <line class="st3" x1="188.817" y1="199.775" x2="188.262" y2="70.929"/>
+                    <line class="st3" x1="169.052" y1="201.568" x2="168.486" y2="70.026"/>
+                    <line class="st3" x1="148.995" y1="203.671" x2="148.415" y2="68.981"/>
+                    <line class="st3" x1="127.619" y1="205.513" x2="127.027" y2="68.127"/>
+                    <line class="st3" x1="106.096" y1="207.359" x2="105.492" y2="66.977"/>
+                </g>
+
+                <polygon class="st4" points="169.856,99.117 167.512,99.089 167.497,95.645 169.841,95.681        "/>
+
+                <g>
+                    <line class="st5" x1="77.258" y1="66.023" x2="73.133" y2="65.833"/>
+                    <line class="st5" x1="77.348" y1="86.759" x2="73.223" y2="86.651"/>
+                    <line class="st5" x1="77.433" y1="106.687" x2="73.309" y2="106.658"/>
+                    <line class="st5" x1="77.524" y1="127.692" x2="73.4" y2="127.746"/>
+                    <line class="st5" x1="77.614" y1="148.697" x2="73.491" y2="148.834"/>
+                    <line class="st5" x1="77.703" y1="169.433" x2="73.58" y2="169.651"/>
+                    <line class="st5" x1="77.79" y1="189.63" x2="73.668" y2="189.929"/>
+                    <line class="st5" x1="77.879" y1="210.097" x2="73.756" y2="210.476"/>
+                </g>
+
+                <g class="st2">
+                    <line class="st3" x1="224.89" y1="90.609" x2="82.398" y2="86.89"/>
+                    <line class="st3" x1="224.964" y1="107.721" x2="82.483" y2="106.722"/>
+                    <line class="st3" x1="225.042" y1="125.758" x2="82.573" y2="127.626"/>
+                    <line class="st3" x1="225.12" y1="143.795" x2="82.663" y2="148.529"/>
+                    <line class="st3" x1="225.196" y1="161.6" x2="82.752" y2="169.165"/>
+                    <line class="st3" x1="225.271" y1="178.943" x2="82.839" y2="189.265"/>
+                </g>
+
+                <g>
+                    <line class="st5" x1="83.732" y1="217.922" x2="83.757" y2="223.765"/>
+                    <line class="st5" x1="106.279" y1="215.745" x2="106.303" y2="221.438"/>
+                    <line class="st5" x1="128.386" y1="213.581" x2="128.41" y2="219.125"/>
+                    <line class="st5" x1="149.175" y1="211.457" x2="149.198" y2="216.851"/>
+                    <line class="st5" x1="169.671" y1="209.342" x2="169.694" y2="214.735"/>
+                    <line class="st5" x1="188.851" y1="207.715" x2="188.873" y2="212.659"/>
+                    <line class="st5" x1="207.737" y1="205.648" x2="207.757" y2="210.443"/>
+                    <line class="st5" x1="225.306" y1="204.07" x2="225.327" y2="209.015"/>
+                </g>
+            </g>
+        </svg>
+
+        <div id="phone" class="dimensions sprite"></div>
+        <div id="droplets" class="dimensions sprite"></div>
+
+        <svg version="1.1"
+            id="graph2"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px"
+             width="300px" height="250px"
+             viewBox="0 0 300 250"
+             style="enable-background:new 0 0 300 250;"
+             xml:space="preserve">
+
+            <style type="text/css">
+                .st1{opacity:0.87;clip-path:url(#wave1_clipPath);fill:url(#wave1_gradient);enable-background:new    ;}
+                .st2{opacity:0.2;}
+            </style>
+
+            <g id="wave1_group">
+                <!-- the clip path is the initial shape of the wave -->
+                <defs>
+                    <clipPath id="wave1_clipPath">
+                        <path id="wave1_path0" d="M82.431,131.617c0,0,5.664,25.519,23.022,25.519c16.749,0,11.572,10.476,21.986,10.476
+                    c16.871,0,5.238-4.568,21.256-5.055c15.592-0.487,4.994-11.815,20.159-11.998c14.678-0.183,7.613,8.831,19.611,8.648
+                    c11.633-0.183,5.36-8.039,18.393-7.735c12.668,0.244,9.806,9.745,18.15,9.745l0.305,35.203L82.736,209.514L82.431,131.617z"/>
+                    </clipPath>
+                </defs>
+
+                <linearGradient id="wave1_gradient" gradientUnits="userSpaceOnUse" x1="82.4782" y1="-242.8779" x2="225.3452" y2="-242.8779" gradientTransform="matrix(1 0 0 1 0 392)">
+                    <stop  offset="0.1184" style="stop-color:#D7E2ED"/>
+                    <stop  offset="1" style="stop-color:#7BABCC"/>
+                </linearGradient>
+
+                <!-- this is a simple, squared shape with a gradient fill, it is maksed by the clip path "wave1_clipPath" -->
+                <path id="wave1_fill" class="st1" d="M224.888,88.75l0.457,107.652L82.744,209.495L82.478,88.75H224.888z"/>
+
+                <!-- this path is the resting shape of the wave, GSAP/MorphSVG will tween between the shapes "wave1_path0" and "wave1_path1" -->
+                <path id="wave1_path1" d="M81.883,153.299c0,0,5.725-13.582,23.083-13.582c16.81,0,11.633,8.405,22.047,8.405
+            c12.12,0,8.77-14.8,21.377-14.8c13.764,0,8.709,7.491,20.22,7.491c14.739,0,7.674-17.54,19.672-17.723
+            c11.694-0.183,5.36,5.664,18.393,5.908c12.668,0.244,9.867-20.22,18.21-20.22l0.365,107.253L82.188,229.247L81.883,153.299z"/>
+            </g>
+
+            <g id="nodes">
+                <polygon class="st4" points="105.94,141.118 103.565,141.118 103.565,138.56 105.879,138.499"/>
+                <polygon class="st4" points="128.17,149.34 125.795,149.34 125.795,146.782 128.11,146.722"/>
+                <polygon class="st4" points="82.919,154.517 80.543,154.517 80.543,151.959 82.858,151.959"/>
+                <polygon class="st4" points="207.224,130.217 205.154,130.217 205.154,127.902 207.224,127.902"/>
+                <polygon class="st4" points="189.258,124.431 187.187,124.431 187.187,122.116 189.258,122.116"/>
+                <polygon class="st4" points="169.768,142.093 167.697,142.093 167.697,139.778 169.768,139.778"/>
+                <polygon class="st4" points="149.365,134.48 147.294,134.48 147.294,132.165 149.365,132.165"/>
+                <polygon class="st4" points="225.496,109.996 223.425,109.996 223.425,107.682 225.496,107.682"/>
+            </g>
+        </svg>
+
+        <div id="copy0" class="dimensions sprite"></div>
+        <div id="copy1" class="dimensions sprite"></div>
+        <div id="copy2" class="dimensions sprite"></div>
+        <div id="copy3" class="dimensions sprite"></div>
+        <div id="lockup" class="dimensions sprite"></div>
+
+        <div id="breadcrumbs" class="dimensions sprite"></div>
+        <div id="logo" class="dimensions sprite"></div>
+        <div id="cta" class="dimensions sprite"></div>
+        <div id="cta_carat" class="dimensions sprite"></div>
+        <!-- End asset container divs here -->
+
+        <div id="border"></div>
+        <!-- this div triggers the clicktag -->
+        <div id="hit" class="dimensions" onclick="vendorClickHandler()"></div>
+
+        <!-- Optional loader image/message -->
+        <div id="loader" class="dimensions"></div>
+
+    </div>
+    <script>
+    var counter = 0,
+        $loader = document.getElementById("loader");
+
+    function checkInit() //loader scripts for various vendor platforms
+    {
+        // Sizmek
+        if(vendor=="sizmek")
+        {
+            if (!EB.isInitialized())
+            {
+              EB.addEventListener(EBG.EventName.EB_INITIALIZED, checkInit);
+            }
+
+            else
+            {
+              loadScripts();
+            }
+        }
+
+        // DoubleClick Studio
+        else if(vendor=="doubleclick")
+        {
+            if (Enabler.isPageLoaded())
+            {
+                function pageLoadedHandler() {
+                  if (Enabler.isVisible()) {
+                    adVisibilityHandler();
+                  } else {
+                    Enabler.addEventListener(studio.events.StudioEvent.VISIBLE, adVisibilityHandler);
+                  }
+                }
+
+                function adVisibilityHandler() {
+                    loadScripts();
+                }
+            }
+
+            else
+            {
+                Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, loadScripts);
+            }
+        }
+
+        //DoubleClick for Advertisers, DoubleClick for Media, Atlas
+        else if(vendor == "dfa" || vendor == "dcm" || vendor == "atlas")
+        {
+            loadScripts();
+        }
+
+    }
+
+    //makes sure libraries and styles don't load until after vendor's init loaded first aka 'polite load'
+    function loadScripts()
+    {
+      loadJsCssFile("styles.css", trackProgress);
+      loadJsCssFile("https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js", trackProgress); //CDN hosted GSAP use unless vendor specifies local versions (ex. Atlas specifies local libaries)
+      loadJsCssFile("MorphSVGPlugin.min.js", trackProgress);
+      loadJsCssFile("customEase.min.js", trackProgress);
+    }
+
+    //counter value reflects the number of scripts loaded in loadScripts()
+    function trackProgress()
+    {
+      counter++;
+        if(counter == 4) //'counter' = the number of scripts loaded in loadScripts()
+        {
+            console.log('ELEMENTS SET AND LOADED'); // keep console.log commented out for Atlas, it will break the ad if uncommented
+            setTimeout(loadNext, 500); // delay is placed in for IE, sometimes IE loads in custom .js animation too soon
+        }
+    }
+
+    //once above scripts are loaded, local animaton can load/execute
+    function loadNext()
+    {
+        console.log("meow"); // keep console.log commented out for Atlas, it will break the ad if uncommented
+        loadJsCssFile("scripts.js", allLoaded);
+    }
+
+    //removes loader's visibility which hides all unset, unsightly assets
+    function allLoaded() {
+        $loader.style.display = "none";
+    }
+
+    //sets appropriate clicktag script based on the vendor platform we're using
+    function vendorClickHandler()
+    {
+        switch (vendor) {
+            case "doubleclick":
+                Enabler.exit('Background Exit'); break;
+            case "sizmek":
+                EB.clickthrough(); break;
+            case "dcm":
+                ExitApi.exit(); break;
+            case "dfa":
+                javascript:window.open(window.clickTag, "_blank"); break;
+            case "atlas":
+                javascript:window.open("{{PUB_CLICKTHROUGH}}", "_blank"); break;
+        }
+    }
+
+
+    //DYNAMICALLY LOAD JS/CSS + CALLBACK
+    //Source: http://www.javascriptkit.com/javatutors/loadjavascriptcss.shtml
+    function loadJsCssFile(filename,func)
+    {
+        var filetype = filename.substring(filename.lastIndexOf('.')+1);
+
+        if(filetype == 'js')
+        {
+            var fileref = document.createElement('script');
+            fileref.setAttribute('type','text/javascript')
+            fileref.setAttribute('src', filename);
+        }
+
+        else if(filetype == 'css')
+        {
+            var fileref = document.createElement('link');
+            fileref.setAttribute('rel','stylesheet');
+            fileref.setAttribute('type', 'text/css')
+            fileref.setAttribute('href', filename);
+        }
+
+        if(typeof fileref!= 'undefined')
+        {
+            if(func)
+            {
+                if(fileref.readyState){//IE 8, 9, 10
+                    fileref.onreadystatechange = fileref.onload = function()
+                    {
+                        if(fileref.readyState == 'loaded' || fileref.readyState == 'complete')
+                        {
+                            fileref.onreadystatechange = null;
+                            func();
+                        }
+                    };
+                }
+
+                else
+                {//other browsers
+                    fileref.onload = function ()
+                    {
+                      func();
+                    }
+                }
+            }
+
+        document.getElementsByTagName('head')[0].appendChild(fileref);
+
+        }
+    }
+
+    </script>
+
+</body>
+</html>

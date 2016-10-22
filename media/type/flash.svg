@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" inkscape:version="0.48.3.1 r9886" sodipodi:docname="Adobe_Flash_Player_10.png" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+	 style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#rect3846-5_1_);}
+	.st1{fill:url(#path3820_1_);}
+</style>
+<defs>
+	
+	
+		<inkscape:perspective  id="perspective3830" inkscape:persp3d-origin="494 : 329.33333 : 1" inkscape:vp_x="14.801303 : 428.87427 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="1106.4104 : 523.60261 : 1" sodipodi:type="inkscape:persp3d">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" gridtolerance="10" guidetolerance="10" id="namedview4" inkscape:current-layer="svg2" inkscape:cx="393.518" inkscape:cy="557.11198" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:snap-global="true" inkscape:window-height="675" inkscape:window-maximized="0" inkscape:window-width="984" inkscape:window-x="2" inkscape:window-y="0" inkscape:zoom="0.35355339" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<linearGradient id="rect3846-5_1_" gradientUnits="userSpaceOnUse" x1="1314.6252" y1="-1092.8665" x2="1299.3854" y2="-1029.9832" gradientTransform="matrix(1 0 0 -1 -1257.3988 -1013.0483)">
+	<stop  offset="0" style="stop-color:#7C1315"/>
+	<stop  offset="1" style="stop-color:#E81C24"/>
+</linearGradient>
+<rect id="rect3846-5" class="st0" width="100" height="100"/>
+<linearGradient id="path3820_1_" gradientUnits="userSpaceOnUse" x1="-323.4667" y1="-527.9749" x2="-268.5143" y2="-527.9749" gradientTransform="matrix(1 0 0 -1 345.1732 -478.7157)">
+	<stop  offset="0" style="stop-color:#E5E5E5"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path id="path3820" inkscape:connector-curvature="0" class="st1" d="M21.7,76v-6.2l1.1-0.1c5.1-0.5,7.6-1.6,10.8-4.9
+	c3.8-3.8,6.4-8.6,10.6-19.9c2.8-7.4,5.1-12,8.8-17.1c3.2-4.4,8.2-8,13.8-9.9c2.8-0.9,6.6-1.6,8.9-1.6h0.9v6.2v6.2l-1.1,0.1
+	c-2.8,0.2-5.1,0.9-7.3,2.2c-2.9,1.7-6.5,6.1-8.6,10.5C59,43.1,58.6,43,64.4,43h5v6.3v6.3l-7.7,0l-7.7,0l-0.9,1.9
+	c-2.2,4.8-4.7,9.4-7.2,12.9c-4.8,6.8-11.2,10.4-20.1,11.6c-1,0.1-2.3,0.2-3,0.2l-1.1,0L21.7,76L21.7,76z"/>
+</svg>

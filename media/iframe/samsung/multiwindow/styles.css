@@ -1,0 +1,83 @@
+.sprite {
+  background-size: calc(600px/2) calc(500px/2);
+  background-image: url(spritesheet.png);
+}
+
+#breadcrumbs {
+    background-image:url("breadcrumbs.png");
+}
+
+#copy0 {
+    background-image:url("copy0.png");
+}
+
+#copy1 {
+    background-image:url("copy1.png");
+}
+
+#copy2 {
+    background-image:url("copy2.png");
+}
+
+#copy3 {
+    background-image:url("copy3.png");
+}
+
+#cta {
+    background-image:url("cta.png");
+}
+
+#cta_carat {
+    background-image:url("cta_carat.png");
+}
+
+#logo {
+    background-image:url("logo.png");
+}
+
+#chart {
+    background-image:url("chart.png");
+}
+
+#chart2 {
+    background-image:url("chart2.png");
+}
+
+#phone {
+    background-image: url("phone.png");
+}
+
+#phone_wrapper {
+    position:absolute;
+    /*background-color: "#000000";*/
+}
+
+#bottom_wrapper {
+    width:calc(191px/2);
+    height:calc(301px/2);
+    overflow:hidden;
+    position:absolute;
+}
+
+#bottom {
+    width:calc(191px/2);
+    height:calc(301px/2);
+    background-size: calc(191px/2) calc(301px/2);
+    background-image: url(bottom.png);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#bars_wrapper_1, #bars_wrapper_2 {
+    width:46px;
+    height:106px;
+    overflow:hidden;
+    position:absolute;
+}
+
+.bar {
+    width:12px;
+    position:absolute;
+}
+
+

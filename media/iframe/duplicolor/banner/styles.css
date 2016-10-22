@@ -1,0 +1,105 @@
+/* set your initial positions in the javascript, not the CSS */
+
+/* put important, but static attributes, ones you'll not be animating here */
+
+/* all bg positions have been halved to account for the retina image being resized to half in the 'dimensions' class found in the html */
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+}
+
+#linesWhite {
+  background-image:url("img/lines.svg");
+}
+
+#gradient {
+  background-image:url("img/img_gradient.png");
+}
+
+#linesRed {
+  background-image:url("img/linesRed.svg");
+  color: #b02c35;
+}
+
+#linesWhite2 {
+  background-image:url("img/lines.svg");
+}
+
+#txt_Personalize {
+  background-image:url("img/img_txt_Personalize.png");
+}
+
+#car_red {
+  background-image:url("img/img_car_red.png");
+}
+
+#car_black {
+  background-image:url("img/img_car_black.png");
+}
+
+#car_gold {
+  background-image:url("img/img_car_blackWGold.png");
+}
+
+#sprayCan {
+  background-image:url("img/img_sprayCan.png");
+}
+
+#txt_SprayIt {
+  background-image:url("img/img_txt_SprayIt.png");
+}
+
+#logo1 {
+  background-image:url("img/img_logo1.png");
+}
+
+#logo1_color {
+  background-image:url("img/img_logo1_color.png");
+}
+
+#logo2 {
+  background-image:url("img/img_logo2.png");
+}
+
+#logo2_color {
+  background-image:url("img/img_logo2_color.png");
+}
+
+#paint1 {
+  background-image:url("img/img_paint1.png");
+}
+
+#paint2 {
+  background-image:url("img/img_paint2.png");
+}
+
+#txt_Duplicolor {
+  background-image:url("img/img_txt_Duplicolor.png");
+}
+
+#txt_NowAvailable {
+  background-image:url("img/img_txt_NowAvailable.png");
+}
+
+#CTA_txt {
+  background-image:url("img/img_CTA_txt.png");
+}
+
+#CTA_box {
+  background-color:#e02027;
+  width:96px;
+  height:28px;
+  position: absolute;
+}
+
+#peel {
+  background-image:url("img/img_peel.png");
+  width:166px;
+  height:250px;
+}
+
+#sprayGun {
+  background-image:url("img/img_sprayGun.png");
+  width:121px;
+  height:92px;
+  position:absolute;
+}

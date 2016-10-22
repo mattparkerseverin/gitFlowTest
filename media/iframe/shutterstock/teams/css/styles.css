@@ -1,0 +1,110 @@
+body {
+  background-color: #fff;
+  padding:0;
+  margin:0;
+}
+
+.dimensions {
+  width: 300px;
+  height: 250px;
+}
+
+div {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#bg-exit {
+  background-color: #fff;
+}
+
+#banner {
+  margin:auto;
+  overflow:hidden;
+  cursor:pointer;
+  background-color: #1aa6b7;
+  border: 1px solid #d0d0d0;
+}
+
+.pngSheet {
+  width:300px;
+  height:100px;
+  background:url('../img/objects.png') no-repeat;
+}
+
+.pngSheet2 {
+  width:300px;
+  height:200px;
+  background:url('../img/objects.png') no-repeat;
+}
+
+@media  (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi)
+{
+  .pngSheet {
+    background:url('../img/objects-2x.png') top left;
+    background-size: 600px 600px;
+    width:300px;
+    height:100px;
+  }
+
+  .pngSheet2 {
+    background:url('../img/objects-2x.png') top left;
+    background-size: 600px 600px;
+    width:300px;
+    height:200px;
+  }
+}
+
+#top_bar {
+  width:100%;
+  height:5px;
+  background-color:#ee2e24;
+  position:absolute;
+}
+
+#copy1 {
+  background-position: 0px 0px;
+}
+
+#copy2 {
+  background-position: 0px -100px;
+}
+
+#bot_bar {
+  width:100%;
+  height:44px;
+  background-color: #fff;
+  position:absolute;
+}
+
+#logo {
+  background-position: 0px -300px;
+}
+
+#cta {
+  width:124px;
+  height:26px;
+  background-color:#c6312d;
+  position:absolute;
+}
+
+#cta_copy {
+  background-position: 0px -200px;
+}
+
+#TL {
+  background-position: 0px -400px;
+}
+
+#TR {
+  background-position: -300px 0px;
+}
+
+#BL {
+  background-position: -300px -200px;
+}
+
+#BR {
+  background-position: -300px -400px;
+}

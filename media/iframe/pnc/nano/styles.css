@@ -1,0 +1,124 @@
+/* set your initial positions in the javascript, not the CSS */
+
+/* put important, but static attributes, ones you'll not be animating here */
+
+/* all bg positions have been halved to account for the retina image being resized to half in the 'dimensions' class found in the html */
+.retina {
+  background-size: calc(600px/2) calc(500px/2);
+}
+
+/*#comp{
+  background-image:url("comp.jpg");
+  opacity:0;
+}*/
+
+#bg{
+  background-image:url("img/bg.jpg ");
+}
+
+#lock {
+  background-image:url("img/lock.png");
+}
+
+#wheel {
+  background-image:url("img/wheel.png");
+  color: #b02c35;
+}
+
+#helmet{
+  background-image:url("img/helmet.png");
+}
+
+#tablet {
+  background-image:url("img/tablet.png");
+  top:0;
+  left:0;
+  position:absolute;
+  width:142px;
+  height:103px;
+  background-size: 142px 103px;
+  border-radius: 3%;
+}
+
+#calendar_wrapper {
+  top:10px;
+  left:13px;
+  position:absolute;
+  width:117px;
+  height:84px;
+  background-size: 117px 84px;
+  overflow:hidden;
+}
+
+#portrait {
+  background-image:url("img/calendar_portrait.jpg");
+  top:0;
+  left:0;
+  position:absolute;
+  width:117px;
+  height:84px;
+  background-size: 117px 84px;
+}
+
+#landscape {
+  background-image:url("img/calendar_landscape.jpg");
+  top:0;
+  left:0;
+  position:absolute;
+  width:117px;
+  height:84px;
+  background-size: 117px 84px;
+}
+
+#pump {
+  background-image:url("img/pump.png");
+}
+
+#gloves {
+  background-image:url("img/gloves.png");
+}
+
+#helmet {
+  background-image:url("img/helmet.png");
+}
+
+#txt1 {
+  background-image:url("img/txt1.png");
+}
+
+#txt2 {
+  background-image:url("img/txt2.png");
+}
+
+#txt3 {
+  background-image:url("img/txt3.png");
+}
+
+#txt_from {
+  background-image:url("img/txt_from.png");
+}
+
+#logo {
+  background-image:url("img/logo.png");
+}
+
+#logo2 {
+  background-image:url("img/logo2.png");
+}
+
+#txt_footer {
+  background-image:url("img/txt_footer.png");
+}
+
+#txt_footer2 {
+  background-image:url("img/txt_footer2.png");
+}
+
+#button {
+  background-image:url("img/button.png");
+}
+
+#arrow {
+  background-image:url("img/arrow.png");
+}
+

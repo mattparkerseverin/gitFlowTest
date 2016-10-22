@@ -1,0 +1,100 @@
+/*make sure svg reflects banner dimensions*/
+.svg {
+  width:300px;
+  height:250px;
+  position:absolute;
+}
+
+/*total dimension of the spritesheet*/
+.sprite {
+  background-size: calc(2400px/2) calc(2000px/2);
+  background-image: url(spritesheet.png);
+}
+
+#bar0 {
+  position:absolute;
+  width:300px;
+  height:37px;
+  background-color:#f8c53e;
+}
+
+#sun_fill {
+  overflow:hidden;
+}
+
+#bar1 {
+  position:absolute;
+  width:300px;
+  height:37px;
+  background-color:#fbdb7f;
+}
+
+#bar2 {
+  position:absolute;
+  width:300px;
+  height:37px;
+  background-color:#fded96;
+}
+
+#sun {
+  position:absolute;
+}
+
+/*all bg positions are derived from a png spritesheet made at 'https://draeton.github.io/stitches' the bg-pos dimensions have been halved to account for the retina image resize in .sprite, I tried calc(original bg-pos) but it wasn't working well*/
+
+#breadcrumbs {
+    background-position: 0 0;
+    display: none;
+}
+
+#copy0 {
+    background-position: -300px 0;
+}
+
+#copy1 {
+    background-position: -600px 0;
+}
+
+#copy2 {
+    background-position: 0 -250px;
+}
+
+#copy3 {
+    background-position: -300px -250px;
+}
+
+#cta {
+    background-position: -600px -250px;
+}
+
+#cta_carat {
+    background-position: 0 -500px;
+}
+
+#display {
+    background-position: -300px -500px;
+}
+
+#display_content {
+    background-position: -600px -500px;
+}
+
+#display_copy {
+    background-position: 0 -750px;
+}
+
+#icon0 {
+    background-position: -300px -750px;
+}
+
+#icon1 {
+    background-position: -600px -750px;
+}
+
+#icon2 {
+    background-position: -900px 0;
+}
+
+#logo {
+    background-position: -900px -250px;
+}

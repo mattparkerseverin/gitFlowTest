@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  color:white;
+  padding:0;
+  margin:0;
+}
+
+.dimensions {
+  position:absolute;
+  width: 300px;
+  height: 250px;
+}
+
+.chip {
+  position:absolute;
+  width: 723px; /* accomodated srop shadow */
+  height: 250px;
+}
+
+.shadow {
+  position:absolute;
+  width: 79px;
+  height: 250px;
+  left: 664px;
+  top: 0px;
+  background:url(../img/shadow_32c.png)
+}
+
+#t0 {
+  background:url(../img/t0.png)
+}
+
+#t1 {
+  background:url(../img/t1.png)
+}
+
+#t2 {
+  background:url(../img/t2.png)
+}
+
+#banner {
+  background-color: #FFF5EB;
+  margin:auto;
+  overflow:hidden;
+}
+
+#border {
+  background:url(../img/border.png)
+}
+
+#endFrame {
+  width: 300px;
+  height:250px;
+  position:relative;
+}
+
+#text1 {
+  width: 161px;
+  height: 54px;
+  position:absolute;
+  background:url(../img/text1_12c.png)
+}
+
+#text2 {
+  width: 137px;
+  height: 36px;
+  position:absolute;
+  background:url(../img/text2_12c.png)
+}
+
+#text3 {
+  width: 108px;
+  height: 36px;
+  position:absolute;
+  background:url(../img/text3_12c.png)
+}
+
+#text4 {
+  width: 209px;
+  height: 107px;
+  position:absolute;
+  background:url(../img/text4_12c.png)
+}
+
+#paintOn {
+  width:86px;
+  height:25px;
+  position:absolute;
+}
+
+#logoLowes {
+  width:112px;
+  height:51px;
+  position:absolute;
+  background:url(../img/logoLowes_32c.png);
+}
+
+#nowAvailable {
+  width:254px;
+  height:26px;
+  position:absolute;
+  background:url(../img/nowAvailable_12c.png);
+}
+
+#theEnd {
+  width:300px;
+  height:250px;
+  position:relative;
+}
+
+#cans {
+  width:102px;
+  height:78px;
+  position:absolute;
+  background:url(../img/cans_256c.png);
+}
+
+#logo {
+  width:153px;
+  height:50px;
+  position:absolute;
+  background:url(../img/logo_64c.png);
+}

@@ -1,0 +1,76 @@
+.sprite {
+  background-size: calc(1200px/2) calc(1000px/2);
+  background-image: url(spritesheet.png);
+}
+
+/* set your initial positions in the javascript, not the CSS */
+
+/* put important, but static attributes, ones you'll not be animating here */
+
+/* all bg positions have been halved to account for the retina image being resized to half in the 'dimensions' class found in the html */
+
+#copy0 {
+    background-position: 0 0;
+}
+
+#copy1 {
+    background-position: 0 -250px;
+}
+
+#copy2 {
+    /*background-position: 0 -250px;*/
+}
+
+#cta_copy {
+    background-position: -300px 0;
+}
+
+#logo {
+    background-position: -300px -250px;
+}
+
+#hero0 {
+  background:url('hero0.jpg') top left;
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+  position:absolute;
+}
+
+#hero1 {
+  background:url('hero1.jpg') top left;
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+  position:absolute;
+}
+
+#hero2 {
+  background:url('hero2.png') top left;
+  background-size: calc(600px/2) calc(500px/2);
+  width:calc(600px/2);
+  height:calc(500px/2);
+  position:absolute;
+}
+
+#white {
+  width:100%;
+  height:55px;
+  background-color: #fff;
+  bottom:0px;
+  position:absolute;
+}
+
+#cta_bg {
+  width:114px;
+  height:26px;
+  background-color: #ed2424;
+  position:absolute;
+}
+
+#cta_bg_over {
+  width:114px;
+  height:26px;
+  background-color: #ff0000;
+  position:absolute;
+}
